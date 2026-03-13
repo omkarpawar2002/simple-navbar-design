@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222f3d;
+    margin: 100px 50px;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+
+#navbar {
+    background-color: #0e4260;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.navigation li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+li {
+    list-style: none;
+    float: left;
+    margin: 12px 20px;
+    padding-left: 20px;
+}
+
+.btn {
+    float: right;
+}
+
+button {
+    border: 2px solid black;
+    padding: 4px 15px;
+    margin: 1px 6px;
+    border-radius: 10px;
+    font-size: 17px;
+
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
